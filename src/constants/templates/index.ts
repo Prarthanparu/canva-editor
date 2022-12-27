@@ -24,7 +24,7 @@ export const template = {
       skewY: 0,
       visible: true,
       shadow: {
-        color: "#C7C7C7",
+        color: "black",
         blur: 10,
         offsetX: 0,
         offsetY: 0,

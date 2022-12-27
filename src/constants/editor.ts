@@ -12,6 +12,9 @@ export enum SubMenuType {
 }
 
 export const SAMPLE_TEMPLATES = [
+
+  
+
   {
     id: "0sXf_YEww2RXXCjdNkrWh",
     name: "Untitled design",

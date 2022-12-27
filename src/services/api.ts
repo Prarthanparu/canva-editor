@@ -230,16 +230,16 @@ class ApiService {
   }
 
   // ELEMENTS
-  getElements(): Promise<IElement[]> {
-    return new Promise(async (resolve, reject) => {
-      try {
-        const { data } = await this.base.get("/elements")
-        resolve(data)
-      } catch (err) {
-        reject(err)
-      }
-    })
-  }
+  // getElements(): Promise<IElement[]> {
+  //   return new Promise(async (resolve, reject) => {
+  //     try {
+  //       const { data } = await this.base.get("/elements")
+  //       resolve(data)
+  //     } catch (err) {
+  //       reject(err)
+  //     }
+  //   })
+  // }
   updateTemplate(id: string, props: Partial<Template>): Promise<Template> {
     return new Promise((resolve, reject) => {
       this.base
@@ -263,18 +263,18 @@ class ApiService {
     })
   }
 
-  getPixabayImages = (props: { query: string; perPage: number; page: number }): Promise<Resource[]> => {
-    return new Promise(async (resolve, reject) => {
-      try {
-        const { data } = await this.base.get(
-          `resources/pixabay/images?page=${props.page}&per_page=${props.perPage}&query=${props.query}`
-        )
-        resolve(data.images)
-      } catch (err) {
-        reject(err)
-      }
-    })
-  }
+  // getPixabayImages = (props: { query: string; perPage: number; page: number }): Promise<Resource[]> => {
+  //   return new Promise(async (resolve, reject) => {
+  //     try {
+  //       const { data } = await this.base.get(
+  //         `resources/pixabay/images?page=${props.page}&per_page=${props.perPage}&query=${props.query}`
+  //       )
+  //       resolve(data.images)
+  //     } catch (err) {
+  //       reject(err)
+  //     }
+  //   })
+  // }
 }
 
 export default new ApiService()

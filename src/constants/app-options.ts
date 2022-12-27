@@ -7,10 +7,10 @@ export const BASE_ITEMS = [
     id: "customize",
     name: "Customize",
   },
-  {
-    id: "elements",
-    name: "Elements",
-  },
+  // {
+  //   id: "elements",
+  //   name: "Elements",
+  // },
   {
     id: "images",
     name: "Images",
@@ -28,10 +28,10 @@ export const BASE_ITEMS = [
     name: "Graphics",
   },
 
-  {
-    id: "pixabay",
-    name: "Pixabay",
-  },
+  // {
+  //   id: "pixabay",
+  //   name: "Pixabay",
+  // },
   {
     id: "layers",
     name: "Layers",
@@ -47,10 +47,10 @@ export const VIDEO_PANEL_ITEMS = [
     id: "customize",
     name: "Customize",
   },
-  {
-    id: "elements",
-    name: "Elements",
-  },
+  // {
+  //   id: "elements",
+  //   name: "Elements",
+  // },
   {
     id: "images",
     name: "Images",
@@ -72,10 +72,10 @@ export const VIDEO_PANEL_ITEMS = [
     name: "Graphics",
   },
 
-  {
-    id: "pixabay",
-    name: "Pixabay",
-  },
+  // {
+  //   id: "pixabay",
+  //   name: "Pixabay",
+  // },
 ]
 
 export enum PanelType {

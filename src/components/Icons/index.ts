@@ -1,11 +1,10 @@
 import Background from "./Background"
-import Elements from "./Elements"
 import Text from "./Text"
 import Templates from "./Templates"
 import Search from "./Search"
 import Images from "./Images"
 import Graphics from "./Graphics"
-import Pixabay from "./Pixabay"
+// import Pixabay from "./Pixabay"
 import Uploads from "./Uploads"
 // import Logo from "./Logo"
 import Compress from "./Compress"
@@ -26,14 +25,12 @@ import Add from "./Add"
 import Video from "./Video"
 class Icons {
   static Background = Background
-  static Elements = Elements
   static Text = Text
   static Templates = Templates
   static Search = Search
   static Images = Images
   static Videos = Video
   static Graphics = Graphics
-  static Pixabay = Pixabay
   static Uploads = Uploads
   // static Logo = Logo
   static Compress = Compress

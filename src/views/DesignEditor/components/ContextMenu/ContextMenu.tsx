@@ -3,7 +3,7 @@ import { useStyletron } from "baseui"
 import BringToFront from "~/components/Icons/BringToFront"
 import Delete from "~/components/Icons/Delete"
 import Duplicate from "~/components/Icons/Duplicate"
-import Elements from "~/components/Icons/Elements"
+// import Elements from "~/components/Icons/Elements"
 import Locked from "~/components/Icons/Locked"
 import Paste from "~/components/Icons/Paste"
 import SendToBack from "~/components/Icons/SendToBack"
@@ -149,10 +149,10 @@ const ContextMenu = () => {
               handleAsComponentHandler()
               editor.cancelContextMenuRequest()
             }}
-            icon="Elements"
+            icon="Locked"
             label="Save as component"
           >
-            <Elements size={24} />
+            <Locked size={24} />
           </ContextMenuItem>
           <div style={{ margin: "0.5rem 0" }} />
           <ContextMenuItem
@@ -175,7 +175,7 @@ const ContextMenu = () => {
               icon="Images"
               label="Set as background image"
             >
-              <Elements size={24} />
+              <Locked size={24} />
             </ContextMenuItem>
           )}
         </div>

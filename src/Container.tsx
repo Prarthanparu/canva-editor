@@ -5,7 +5,7 @@ import { editorFonts } from "./constants/fonts"
 import { getPublicDesigns } from "./store/slices/designs/actions"
 import { getPublicComponents } from "./store/slices/components/actions"
 import { getFonts } from "./store/slices/fonts/actions"
-import { getPixabayResources } from "./store/slices/resources/actions"
+// import { getPixabayResources } from "./store/slices/resources/actions"
 import { getUploads } from "./store/slices/uploads/actions"
 import { useAppDispatch } from "./store/store"
 
@@ -43,7 +43,7 @@ const Container = ({ children }: { children: React.ReactNode }) => {
     dispatch(getFonts())
     dispatch(getUploads())
     dispatch(getPublicComponents())
-    dispatch(getPixabayResources())
+    // dispatch(getPixabayResources())
     dispatch(getPublicDesigns())
 
     loadFonts()
